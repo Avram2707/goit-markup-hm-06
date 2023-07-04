@@ -1,0 +1,444 @@
+@media screen and (min-width:428px) {
+    .container {
+        max-width: 396px;
+    }
+
+    .strategies-items {
+        max-width: 768px;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 767px;
+
+    }
+
+    .strategies-item {
+        max-width: unset;
+        width: calc((100% - 2 * 24px) / 2);
+    }
+
+    .hero-title {
+        max-width: 496px;
+    }
+
+    .team-list {
+        display: flex;
+        gap: 64px 24px;
+    }
+
+    .team-img {
+        width: 100%;
+    }
+
+    .team-item {
+        max-width: unset;
+        width: calc((100% - 24px) / 2);
+    }
+
+    .container {
+        max-width: 584px;
+    }
+
+    .team-subtitle {
+        display: inline;
+    }
+
+    .customers-list {
+        gap: 24px;
+        display: flex;
+    }
+
+    .customers-item {
+        width: calc((100% - 2 * 24px) / 3);
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg\ tablet.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/Dark-bg-tab-2x.jpg");
+        }
+    }
+
+    .header-menu-link {
+        display: block;
+        position: relative;
+        transition: color var(--tran-250);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--h2-font);
+        padding: 24px 0;
+    }
+
+    .header-menu-link.current {
+        color: var(--header-menu-link);
+    }
+
+    .header-menu {
+        display: flex;
+        gap: 40px;
+        margin-left: 120px;
+    }
+
+    .header-menu-link:hover,
+    .header-address-menu-item:hover,
+    .header-address-menu-link:hover {
+
+        color: #404bbf;
+
+    }
+
+    .header-menu-link:focus,
+    .header-address-menu-item:focus,
+    .header-address-menu-link:focus {
+
+        color: #404bbf;
+
+    }
+
+    .header-menu-link:active,
+    .header-address-menu-item:active {
+        text-decoration-line: underline;
+    }
+
+    .header-menu-item {
+        /*padding: 24px 0;*/
+    }
+
+    .header-address-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-address-menu-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        color: #434455;
+        color: var(--color-adress);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-navigation {
+        align-items: baseline;
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .current {
+        position: relative;
+        /*display: block;*/
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: var(--header-menu-link);
+    }
+
+    .current::after {
+        display: block;
+        content: "";
+        left: 0;
+        bottom: 20px;
+        /*bottom: -1px;?*/
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: var(--header-menu-link);
+        border-radius: 2px;
+        bottom: -1px;
+        color: #404bbf;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-menu-link-link:hover,
+    .header-menu-link:focus {
+        color: #404BBF;
+    }
+
+    .header-address {
+        font-style: normal;
+        color: var(--color-adress);
+        margin-left: auto;
+    }
+
+    .header-address-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        color: var(--color-adress);
+        margin-left: auto;
+    }
+
+    .header-address-menu-link:hover,
+    .header-address-menu-link:focus {
+        color: var(--action-color);
+
+    }
+
+    .header-open-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .container-footer {
+        margin-left: 108px;
+        max-width: 584px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        align-items: baseline;
+        justify-content: start;
+    }
+
+    .strategies-item-text {
+        max-width: 356px;
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+
+    .strategies-list {
+        gap: 8px;
+    }
+
+    .down {
+        align-self: start;
+    }
+
+    .container-footer {
+        width: 584px;
+        justify-content: unset;
+
+    }
+
+    .footer-web {
+        align-items: unset;
+    }
+
+    .footer-social-media {
+        align-items: unset;
+    }
+
+    .container-sabscribe {
+        align-items: unset;
+    }
+
+    .sabscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .sabscribe-input {
+        width: 264px;
+        margin-bottom: unset;
+    }
+
+    .text-btn {
+        margin: unset
+    }
+
+    .new-menu {
+        display: none;
+        color: transparent;
+    }
+
+    .text-btn {
+        width: 77px;
+    }
+
+}
+
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+
+    }
+
+    .strategies-item {
+        max-width: unset;
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .strategies-icons {
+        background: #F4F4FD;
+        display: flex;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 100px;
+        margin-bottom: 8px;
+    }
+
+    .photo {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+
+    .team-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .container-team {
+        gap: 24px;
+    }
+
+    .customers-list {
+        gap: 24px;
+        display: flex;
+    }
+
+    .customers-item {
+        max-width: unset;
+        width: calc((100% - 5 * 24px) / 6);
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        max-width: 496px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+        height: 600px;
+        padding: 188px 0;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg-pc@2x.jpeg");
+        }
+    }
+
+    .header-menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-menu-link {
+        display: block;
+        position: relative;
+        transition: color var(--tran-250);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .header-menu-link.current {
+        color: var(--header-menu-link);
+    }
+
+    .header-address-menu {
+        display: flex;
+        flex-direction: row;
+        /*margin-left: auto;*/
+        /*flex-grow: 1;*/
+        gap: 40px;
+    }
+
+    .header-address-menu-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--color-adress);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-menu {
+        margin-left: 76px;
+    }
+
+    .header-address-menu {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .header-address-menu-link {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-wrap: unset;
+        gap: unset;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        align-items: baseline;
+        width: unset;
+    }
+
+    .footer-web {
+        flex-direction: unset;
+        gap: unset;
+    }
+
+    .footer-logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-link {
+        max-width: 264px;
+    }
+
+    .container-sabscribe {
+        margin-left: 80px;
+        width: unset;
+    }
+    .sabscribe-input {
+        
+    }
+
+    .strategies-list {
+        gap: 24px;
+    }
+
+    .strategies-item-text {
+        max-width: 264px;
+    }
+    .sabscribe-form {
+        width: unset;
+    }
+
+
+
+
+
+
+}
