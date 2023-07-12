@@ -115,11 +115,6 @@ img {
 .mob-menu.is-open {
         transform: translateX(0);
 }
-/*.mob-menu.is-hidden {
-        visibility: hidden;
-        opacity: 0;
-        pointer-events: none;
-}*/
 
 .close-menu-btn {
         /*display: block;
@@ -245,11 +240,7 @@ img {
         border: none;
         align-items: center;
         justify-content: center;
-
         /*padding: 24px 0;*/
-}
-.new-menu-sec {
-        background-color:#8cece8;
 }
 
 .new-menu span {
@@ -466,8 +457,7 @@ img {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: #4D5AE5;
-        flex-grow: 1;
+        /*flex-grow: 1;*/
         margin-right: 76px;
         /*padding: 24px 0 24px;*/
         position: relative;
