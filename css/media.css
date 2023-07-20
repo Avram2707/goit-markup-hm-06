@@ -30,15 +30,24 @@
     .changes {
         margin: 0;
         padding: 0 16px; 
+        
     }
       
     .strategies-item {
+        
         max-width: unset;
         width: calc((100% - 2 * 24px) / 2);
     }
 
     .hero-title {
         max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 72px;
     }
     .container-team {
         max-width: 584px;
@@ -56,6 +65,9 @@
     .team-item {
         max-width: unset;
         width: calc((100% - 24px) / 2);
+    }
+    .team-subtitle {
+        display: inline;
     }
 
     .container {
@@ -140,10 +152,10 @@
 
     }
 
-    .header-menu-link:active,
+    /*.header-menu-link:active,
     .header-address-menu-item:active {
         text-decoration-line: underline;
-    }
+    }*/
 
     .header-menu-item {
         /*padding: 24px 0;*/
@@ -203,9 +215,11 @@
     }
 
     .header-address {
-        font-style: normal;
+        /*font-style: normal;
         color: #434455;;
-        margin-left: auto;
+        margin-left: auto;*/
+        flex-direction: column;
+        gap: 12px;
     }
 
     .header-address-menu {
@@ -231,8 +245,8 @@
     }
 
     .container-footer {
-        margin-left: 108px;
-        max-width: 584px;
+        /*margin-left: 108px;
+        max-width: 584px;*/
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
@@ -253,9 +267,12 @@
     .strategies-list {
         gap: 72px 24px;
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;  
     }
+    .strategies-item {
+       
+    }
+
     .strategies-subtitle {
         text-align: unset;
     }
@@ -323,6 +340,11 @@
         margin: 0 auto;
         padding: 0 15px 0 15px;
     }
+    .hero-container {
+        /*flex-direction: column;
+        display: flex;
+        gap: 12px;*/
+}
 
     .strategies-item {
         max-width: unset;
@@ -347,7 +369,7 @@
 
     .photo {
         display: block;
-        padding: 120px 0;
+        /*padding: 120px 0;*/
     }
 
     .team-list {
@@ -360,10 +382,18 @@
         color: #2e2f42;
         background-color: transparent;
         display: flex;
-    }
+        margin-bottom: 8px;
+        display: flex;
+        /*flex-wrap: wrap;
+        gap: 64px 24px;*/
 
+    }
+   
     .team-item {
         width: calc((100% - 3 * 24px) / 4);
+        /*border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        background-color: #FFFFFF;*/
     }
 
     /*.container-team {
@@ -381,14 +411,22 @@
         width: calc((100% - 5 * 24px) / 6);
         display: flex;
     }
-
+   
     .hero-title {
         font-size: 56px;
-        font-family: Roboto;
-        font-style: normal;
         font-weight: 700;
         line-height: 60px;
         max-width: 496px;
+        margin-bottom: 72px;
+        /*font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        line-height: 1.07;
+        max-width: 496px;
+        text-align: center;
+        letter-spacing: 0.02em;*/
+                          
     }
 
     .hero {
@@ -406,12 +444,12 @@
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg-pc@2x.jpeg");
         }
     }
-
+    
     .header-menu {
         display: flex;
         gap: 40px;
     }
-
+   
     .header-menu-link {
         display: block;
         position: relative;
@@ -420,6 +458,7 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
     }
 
     .header-menu-link.current {
@@ -462,8 +501,8 @@
         display: flex;
         flex-wrap: unset;
         gap: unset;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        /*padding-top: 100px;
+        padding-bottom: 100px;*/
         align-items: baseline;
         width: unset;
     }
@@ -491,7 +530,7 @@
         width: unset;
     }
     .sabscribe-input {
-        
+                
     }
 
     .strategies-list {
@@ -507,6 +546,10 @@
         margin-bottom: 8px;
         color: #2E2F42;
     }
+    .container-team {
+        gap: 24px;
+        padding: 32px 0;
+    }
 
     .strategies-item-text {
         /*max-width: 264px;*/
@@ -520,10 +563,6 @@
         padding-top: 101.5px;
         padding-bottom: 100px;
     }
-
-
-
-
 
 
 }
